@@ -112,7 +112,7 @@ class TicTacToe
 
       def winner
 
-        winning = won?(board)
+        winning = won?
 
         if winning === false
           return nil
